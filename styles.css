@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: white;
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+  
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(244, 242, 242);  
+}
+button {
+    margin-top: 20px;
+   
+}
+header {
+    width: 100%;
+    height: 100vh; 
+}
+
+header .section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position:absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
+header .section {
+    padding: 16px; 
+    
+}
+
+.grid {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.card {
+    background-color: white;
+    padding: 20px ;
+    border-radius: 3rem;
+}
+
+.card img{
+    object-fit: cover;
+    border-radius: 3rem;
+
+
+}
+
+.card h3{
+    margin-top: 15px;
+    font-size: 1.5rem;
+
+}
+
+.description {
+   padding: 15px;
+
+}
+
+.about-us {
+    display: flex;
+    gap:2rem;
+    text-align: center;
+}
+
+.about-us img {
+    width: 50%;
+    border-radius: 2rem;
+}
+
+.about-us p {
+    text-align: center;
+
+
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+
+}
